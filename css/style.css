@@ -149,7 +149,6 @@
   background-repeat: no-repeat;
   background-position: left;
   background-size: contain;
-
 }
 .promo-section .wrapper {
   flex-direction: column;
@@ -454,15 +453,13 @@ form {
   width: 100%;
   display: flex;
   align-items: center;
-  
-  
 }
 .input {
   font-weight: 400;
   font-size: 14px;
   line-height: 17px;
-border-top-left-radius: 40px;
-border-bottom-left-radius: 40px;
+  border-top-left-radius: 40px;
+  border-bottom-left-radius: 40px;
   color: #222224;
 
   width: 100%;
@@ -488,7 +485,7 @@ border-bottom-left-radius: 40px;
   color: #ffffff;
   cursor: pointer;
   border-top-right-radius: 40px;
-border-bottom-right-radius: 40px;
+  border-bottom-right-radius: 40px;
 }
 .form-text {
   display: flex;
@@ -602,14 +599,14 @@ border-bottom-right-radius: 40px;
 @media (max-width: 768px) {
   .promo-section {
     /* background-position: top 0px left -80%; */
-    
   }
   .bottom-cards {
-    flex-direction: column;f
+    flex-direction: column;
     margin-top: 48px;
     margin-bottom: 64px;
   }
   .subscribe .wrapper {
+    /* margin-top: 48px; */
     flex-direction: column;
   }
   .review {
@@ -619,8 +616,8 @@ border-bottom-right-radius: 40px;
     margin-bottom: 140px;
   }
 }
-@media (max-width: 720px){
-  .promo-section{
+@media (max-width: 720px) {
+  .promo-section {
     background-image: none;
   }
 }
