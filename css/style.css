@@ -266,6 +266,7 @@
   width: 100%;
   height: 100%;
   position: relative;
+  max-height: 432px;
 }
 .item-img-hover:hover .item-cart-window {
   opacity: 1;
@@ -317,6 +318,7 @@
 }
 
 .item-content {
+  max-width: 100%;
   padding: 25px 29px 19px 16px;
   display: flex;
   flex-direction: column;
@@ -324,12 +326,14 @@
   gap: 16px;
 }
 .item-heading {
+  max-width: 100%;
   font-style: normal;
   font-weight: 400;
   font-size: 13px;
   line-height: 16px;
 }
 .item-descr {
+  max-width: 100%;
   font-style: normal;
   font-weight: 300;
   font-size: 14px;
